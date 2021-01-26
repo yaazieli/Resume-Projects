@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Yaazieli</title>
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,400&family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+
+#header {
+	background-color: #2B95FF;
+	color: #ffffff;
+	font-weight: bolder;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 23px;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+
+#nav {
+	background-color: #ffffff;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	color: #556576;
+	font-weight: bold;
+	text-decoration: none;
+ }
+
+a:hover {
+	color: #FFE600;
+	text-shadow: 2px 2px #556576;
+}
+
+
+#main > h1, h2, h3{
+   color: #bbc3cb;
+	 font-size: 25px;
+	 font-family: 'Ubuntu', sans-serif;
+	 }
+
+h5 {
+	color: #556576;
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	line-height: 40px;
+
+}
+#main > p1{
+   text-align: center;
+	 color: #556576;
+	 font-size: 16px;
+	 font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main {
+	padding: 10px;
+	margin-top: 10px;
+	background: linear-gradient(#e4eaf0, white);
+	background-position: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+#Learn-More {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+	padding-bottom: 10px;
+  border: 2px solid #2B95FF;
+  border-radius: 3px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box > .level {
+  background-color: #2B95FF;
+  color: #ffffff;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-size-adjust: auto;
+}
+
+.box > h2 {
+  margin-top: 15px;
+	color: #556576;
+}
+
+
+.box > button {
+  border: ;
+  margin: 15px 0;
+  background-color: #2B95FF;
+  font-weight: 400;
+	color: #ffffff;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box > button:hover {
+  background-color: #FFE600;
+  transition: background-color .3s;
+}
+
+
+
+.btn {
+color: #e4eaf0;
+font-size: 16px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 800px) {
+  #Learn-More {
+    flex-direction: column;
+  }
+  .box {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- Header division -->
+
+<div id="header">
+
+	<h1 style="margin:30px">Yaazieli Ortiz Felicié</h1>
+
+</div><!-- End header -->
+
+<!-- Navbar division -->
+
+<div id="nav">
+	<table style="width: 100%" cellspacing="2" cellpadding="2">
+
+	<tr style="background-color: #e4eaf0; color: white;">
+
+	<td style="width: 20%"><a href="Home.html">Home</a></td>
+
+	<td style="width: 20%"><a href="Work.html">Work Experience</a></td>
+
+	<td style="width: 20%"><a href="Education.html">Education</a></td>
+
+	<td style="width: 20%"><a href="Awards.html">Awards</a></td>
+
+	<td style="width: 20%"><a href="ContactMe.html">Contact Me</a></td>
+
+	</tr>
+
+	</table>
+</div><!-- End nav -->
+
+<!-- Main content division -->
+
+<div id="main">
+<img src="TwitterHeader-1.png" alt="HeaderTechEd" width="100%" />
+
+</div><!-- End main -->
+
+<h5> Educational program leader (M.A. in Education and Social Policy) with specialized focus in higher education administration. Experienced in program management and development, curriculum development, grant writing, community outreach and partner relations.</h5>
+
+
+
+
+<div><!-- End wrapper -->
+
+ <section id="Learn-More">
+	<div class="box" id="work">
+	        <div class="level">Work Experience</div>
+	        <h2>Tech & Workforce</h2>
+	        <p> Learn more about my experience with tech education and workforce development.</p>
+	        <button class="btn"><a href="Work.html">Learn More</button></a>
+   </div>
+
+	 <div class="box" id="education">
+	        <div class="level">Education</div>
+	        <h2>Degrees & Trainings</h2>
+					<p> Learn more about my Master's Degree and other educational experiences.</p>
+		      <button class="btn"><a href="Education.html">Learn More</button></a>
+
+	  </div>
+
+	  <div class="box" id="awards">
+				        <div class="level">Awards</div>
+	        <h2>Leadership & Grants</h2>
+	        <p>Learn more about grants, scholarships and awards I've received.</p>
+	        <button class="btn"><a href="Awards.html">Learn More</button></a>
+	  </div>
+
+</section>
+
+</body>
+</html>
